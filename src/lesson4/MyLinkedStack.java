@@ -8,7 +8,7 @@ public class MyLinkedStack<T> {
     }
 
     public T pop(){
-        return stack.deleteFirst();
+        return stack.deleteLast();
 
     }
 
